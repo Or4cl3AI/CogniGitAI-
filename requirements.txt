@@ -6,8 +6,3 @@ requirements.txt
 {new_package2}=={new_version2}
 {new_package3}=={new_version3}
 ...
-{new_package2}=={new_version2}
-{new_package3}=={new_version3}
-...
-
-
