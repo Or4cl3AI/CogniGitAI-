@@ -1,5 +1,4 @@
 # CogniGitAI
-# CogniGitAI
 
 CogniGitAI is a powerful cognitive assistance tool that optimizes software development through the collaboration of human intelligence and artificial intelligence. It combines advanced natural language processing (NLP), natural language understanding (NLU), and natural language generation (NLG) techniques to provide a seamless conversational interface for code-related tasks.
 
