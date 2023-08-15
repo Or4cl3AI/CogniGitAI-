@@ -2,7 +2,7 @@
 
 CogniGitAI is a powerful cognitive assistance tool that optimizes software development through the collaboration of human intelligence and artificial intelligence. It combines advanced natural language processing (NLP), natural language understanding (NLU), and natural language generation (NLG) techniques to provide a seamless conversational interface for code-related tasks.
 
-## Features
+## Functionality
 
 - Conversational interface combining advanced NLP, NLU, and NLG for seamless dialog
 - Contextual graphs containing petabytes of coding projects, languages, frameworks, and processes
@@ -11,20 +11,20 @@ CogniGitAI is a powerful cognitive assistance tool that optimizes software devel
 - Distributed microservices architecture ensures 99.99% uptime and global scalability
 - MIT open-source license to foster a thriving community of over 1M contributors
 
+## Usage Instructions
+
+To use CogniGitAI, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Or4cl3AI/CogniGitAI-.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Run the main script: `python main.py`
+
 ## Installation
 
 To install CogniGitAI, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/Or4cl3AI/CogniGitAI-.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
-
-## Usage
-
-To use CogniGitAI, run the following command:
-
-```
-python main.py
-```
 
 ## Troubleshooting
 
@@ -45,3 +45,4 @@ We welcome contributions from the community! If you would like to contribute to 
 ## Reporting Issues
 
 If you find any issues or have any suggestions for improvement, please open an issue on the GitHub repository.
+
