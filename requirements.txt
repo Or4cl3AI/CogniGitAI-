@@ -2,5 +2,12 @@ requirements.txt
 {package1}=={version1}
 {package2}=={version2}
 {package3}=={version3}
+{new_package1}=={new_version1}
+{new_package2}=={new_version2}
+{new_package3}=={new_version3}
 ...
+{new_package2}=={new_version2}
+{new_package3}=={new_version3}
+...
+
 
