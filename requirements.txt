@@ -1,0 +1,6 @@
+requirements.txt
+{package1}=={version1}
+{package2}=={version2}
+{package3}=={version3}
+...
+
