@@ -20,6 +20,10 @@ class Dialog:
         # Code to generate a response using NLG
         pass
 
+    def collect_usage_patterns(self):
+        # Code to collect and store the usage patterns
+        pass
+
     def end_dialog(self):
         # Code to end the dialog
         pass
