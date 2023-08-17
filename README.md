@@ -11,46 +11,37 @@ CogniGitAI is a powerful cognitive assistance tool that optimizes software devel
 - Distributed microservices architecture ensures 99.99% uptime and global scalability
 - MIT open-source license to foster a thriving community of over 1M contributors
 
-## Installation
+## IDE Plugins
 
-To install CogniGitAI, follow these steps:
+CogniGitAI provides integrated IDE plugins for Eclipse, VSCode, Xcode, and replit. Follow the instructions below to install and use the plugins:
 
-1. Clone the repository: `git clone https://github.com/Or4cl3AI/CogniGitAI-.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
+### Eclipse
 
-## Usage
+1. Open Eclipse and go to the "Help" menu.
+2. Select "Eclipse Marketplace" from the dropdown.
+3. Search for "CogniGitAI" in the marketplace.
+4. Click on the "Install" button next to the CogniGitAI plugin.
+5. Follow the on-screen instructions to complete the installation.
 
-To use CogniGitAI, run the following command:
+### VSCode
 
-```
-python main.py
-```
+1. Open VSCode and go to the Extensions view.
+2. Search for "CogniGitAI" in the search bar.
+3. Click on the "Install" button next to the CogniGitAI extension.
+4. Wait for the installation to complete.
 
-## Predictive Analytics
+### Xcode
 
-The predictive analytics feature in CogniGitAI allows you to accelerate pipelines based on anonymized usage patterns. To enable and use this functionality, follow these steps:
+1. Open Xcode and go to the "Preferences" menu.
+2. Select the "Extensions" tab.
+3. Search for "CogniGitAI" in the extensions list.
+4. Click on the "Install" button next to the CogniGitAI extension.
+5. Follow the on-screen instructions to complete the installation.
 
-1. Ensure that you have collected and stored the necessary usage patterns using the `collect_usage_patterns` method in the `Dialog` class.
-2. Import the `predictive_analytics` module in the `Dialog` class.
-3. Add a call to the `generate_predictions` method in the `start_dialog` method of the `Dialog` class.
-4. The `generate_predictions` method will generate predictions based on the analyzed usage patterns.
+### Replit
 
-## Troubleshooting
-
-If you encounter any issues while using CogniGitAI, try the following troubleshooting steps:
-
-1. Make sure you have the latest version of Python installed.
-2. Check that all the required dependencies are installed.
-3. Restart the application and try again.
-
-## Contributing
-
-We welcome contributions from the community! If you would like to contribute to CogniGitAI, please follow these guidelines:
-
-1. Fork the repository and create a new branch.
-2. Make your changes and test them thoroughly.
-3. Submit a pull request with a clear description of your changes.
-
-## Reporting Issues
-
-If you find any issues or have any suggestions for improvement, please open an issue on the GitHub repository.
+1. Open your Replit project.
+2. Go to the "Packages" tab in the sidebar.
+3. Search for "CogniGitAI" in the search bar.
+4. Click on the "Add Package" button next to the CogniGitAI package.
+5. Wait for the package to be added to your project.
