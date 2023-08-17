@@ -26,6 +26,15 @@ To use CogniGitAI, run the following command:
 python main.py
 ```
 
+## Predictive Analytics
+
+The predictive analytics feature in CogniGitAI allows you to accelerate pipelines based on anonymized usage patterns. To enable and use this functionality, follow these steps:
+
+1. Ensure that you have collected and stored the necessary usage patterns using the `collect_usage_patterns` method in the `Dialog` class.
+2. Import the `predictive_analytics` module in the `Dialog` class.
+3. Add a call to the `generate_predictions` method in the `start_dialog` method of the `Dialog` class.
+4. The `generate_predictions` method will generate predictions based on the analyzed usage patterns.
+
 ## Troubleshooting
 
 If you encounter any issues while using CogniGitAI, try the following troubleshooting steps:
