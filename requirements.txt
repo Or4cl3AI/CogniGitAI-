@@ -1,5 +1,5 @@
 requirements.txt
-{package1}=={version1}
+{valid_package}=={valid_version}
 {package2}=={version2}
 {package3}=={version3}
 {new_package1}=={new_version1}
