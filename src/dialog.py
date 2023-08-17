@@ -9,6 +9,7 @@ class Dialog:
         self.nlg = nlg_library.NLG()
 
     def start_dialog(self):
+        self.collect_usage_patterns()
         # Code to start the dialog and handle user input
         pass
 
