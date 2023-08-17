@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up environment
+        # Add setup commands here
+        # Example: npm install
+        # Example: pip install -r requirements.txt
+        # Example: bundle install
+        # Example: docker-compose up -d
+
+      - name: Deploy project
+        # Add deployment commands here
+        # Example: ssh user@server "cd /path/to/project && git pull && restart_service"
+        # Example: gcloud app deploy
+        # Example: aws s3 sync . s3://bucket-name
+        # Example: kubectl apply -f deployment.yaml
+
