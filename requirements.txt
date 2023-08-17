@@ -5,4 +5,7 @@ requirements.txt
 {new_package1}=={new_version1}
 {new_package2}=={new_version2}
 {new_package3}=={new_version3}
+{additional_dependency1}=={additional_version1}
+{additional_dependency2}=={additional_version2}
+{additional_dependency3}=={additional_version3}
 ...

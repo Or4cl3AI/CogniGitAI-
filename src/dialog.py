@@ -2,6 +2,7 @@ import nlp_library
 import nlu_library
 import nlg_library
 import predictive_analytics
+import ide_plugins
 
 class Dialog:
     def __init__(self):
