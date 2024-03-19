@@ -1,11 +1,20 @@
 name: Feature Request
-title: 'Sweep: '
-description: Write something like "Write an api endpoint that does "..." in the "..." file"
-labels: sweep
+title: 'API Endpoint Creation'
+description: Please provide details for the new API endpoint you would like to create.
+labels:
+  - sweep
+  - api
 body:
-  - type: textarea
-    id: description
+  - type: section
+    id: request_details
     attributes:
-      label: Details
-      description: More details for Sweep
-      placeholder: The new endpoint should use the ... class from ... file because it contains ... logic
+      label: Request Details
+      description: Please provide a detailed description of the new API endpoint.
+    children:
+      - type: textarea
+        id: description
+        attributes:
+          label: Description
+          description: Please describe the purpose, functionality, and any relevant details about the new endpoint.
+          placeholder: The new endpoint should use the ... class from ... file because it contains ... logic.
+          rows: 5
