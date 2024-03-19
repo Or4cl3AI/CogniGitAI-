@@ -1,11 +1,19 @@
 name: Bugfix
-title: 'Sweep: '
-description: Write something like "We notice ... behavior when ... happens instead of ...""
-labels: sweep
+title: 'Fixing identified issues'
+description: 'We notice certain unexpected behaviors in our code and this sweep is aimed at identifying and fixing them. For example, we might have found an issue in the ... file where the code behaves in an unexpected way when ... happens instead of ...''
+labels:
+  - bugfix
+  - sweep
 body:
   - type: textarea
     id: description
     attributes:
-      label: Details
-      description: More details about the bug
-      placeholder: The bug might be in ... file
+      label: Issue Details
+      description: Provide detailed description of the issue
+      placeholder: Please describe the issue in detail, including the steps to reproduce it and any error messages you see
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: Describe how you plan to fix the issue
+      placeholder: Please describe the steps you will take to fix the issue
