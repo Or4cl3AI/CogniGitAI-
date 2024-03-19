@@ -1,11 +1,12 @@
 name: Refactor
-title: 'Sweep: '
-description: Write something like "Modify the ... api endpoint to use ... version and ... framework"
-labels: sweep
+title: 'Sweep: Update API Endpoint'
+description: 'Modify the XYZ API endpoint to use version 2.0 and switch to the ABC framework for improved functionality and reliability.'
+labels: ['sweep', 'api', 'refactor']
 body:
   - type: textarea
     id: description
     attributes:
       label: Details
-      description: More details for Sweep
-      placeholder: We are migrating this function to ... version because ...
+      description: 'Provide more details for the sweep task'
+      placeholder: 'We are migrating the XYZ API endpoint to version 2.0 as it offers several enhancements and bug fixes. Additionally, we will switch to the ABC framework for better performance and maintainability.'
+      rich_text: true
